@@ -3,6 +3,10 @@
 
 <head> 
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://font.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño Web</title>
     <link rel="stylesheet" href="css/estilos.css">
@@ -22,46 +26,47 @@
     </nav>
 
     <main class="contenedor">
-        <section class="tarjeta">
-            <h2>Bienvenido</h2>
+        <section class="hero">
+
+            <h2>Fundamentos del Diseño Web</h2>
+
             <p>
                 El diseño web es la disciplina encargada de planificar, crear y organizar
                 sitios web, combinando aspectos visuales, estructurales y funcionales para 
                 brindar una experiencia agradable a los uruarios.
             </p>
-            <p>
-                Este sitio web tiene como objetivo explicar los conceptos básicos
-                relacionados con el diseño web, los editores utilizados para crear
-                páginas y la organización correcta de los proyectos.
-            </p>
 
-            <p>
-                Utiliza el menú de navegación para recorrer cada sección.
-            </p>
+            <img src="img/diseno-web.jpg" alt="Diseño Web">
+
+            <div class="botones">
+                <a href="disenoweb.html" class="btn">¿Qué es el Diseño Web?</a>
+                <a href="editores.html" class="btn">Explorar Editores</a>
+            </div>
+
         </section>
 
-        <section class="tarjeta">
-            <h2>¿Qué aprenderás?</h2>
+        <section class="grid">
 
-            <div class="tarjeta">
-                <h3>💻 Editor Web</h3>
-                <p>Herramientas para crear y modificar páginas web.</p>
+            <div class="card">
+                <h3>🌐 Diseño Web</h3>
+                <p>Conceptos fundamentales y objetivos.</p>
             </div>
 
-            <div class="tarjeta">
-                <h3>🖥️ Entorno de Trabajo</h3>
-                <p>Espacio donde se desarrollan y organizan los proyectos.</p>
+            <div class="card">
+                <h3>🖥️ Editores</h3>
+                <p>herramientas utilizadas por desarrolladores.</p>
             </div>
 
-            <div class="tarjeta">
+            <div class="card">
                 <h3>⚖️ Comparación</h3>
-                <p>Diferencias entre editores visuales y de código.</p>
+                <p>Visuales vs Código.</p>
             </div>
 
-            <div class="tarjeta">
+            <div class="card">
                 <h3>📁 Organización</h3>
-                <p>Estructura recomendada para un proyecto web profesional.</p>
+                <p>Estructura profesional de proyectos.</p>
             </div>
+
         </section>
     </main>
 </body>
