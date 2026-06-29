@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Diseño Web</title>
+    <title>Introducción al Diseño Web</title>
 
     <link rel="stylesheet" href="css/estilos.css">
 
@@ -20,15 +20,15 @@
 
 <body>
 
-    <section class="hero">
+    <header class="hero">
 
-        <nav>
+        <nav class="menú">
 
             <h2 class="logo">Diseño Web</h2>
 
             <ul>
 
-                <li><a href="index.html">Inicio</a></li>
+                <li><a class="activo" href="index.html">Inicio</a></li>
 
                 <li><a href="disenoweb.html">Diseño Web</a></li>
 
@@ -44,112 +44,111 @@
 
         <div class="hero-contenido">
 
-            <div class="hero-caja">
+            <div class="hero-box">
 
                 <h1>Introducción al Diseño Web</h1>
 
                 <div class="linea"></div>
 
                 <p>
-                    Editores web, entorno de trabajo y organizacion
-                    de proyectos para el desarrollo de sitios web.
+                    Descubrí los conceptos fundamentales del diseño web,
+                    los diferentes tipos de editores y la organización 
+                    profesionales de proyectos mediante una experiencia
+                    visual e interactiva.
                 </p>
 
-                <a href="disenoweb.html" class="boton">
-                    Comenzar recorrido →
-                </a>
+                <div class="hero-botones">
+
+                    <a href="disenoweb.html" class="btn-principal">
+                        Comenzar recorrido 
+                    </a>
+
+                    <a href="#contenido" class="btn-secundario">
+                        Explorar
+                    </a>
+
+                </div>
 
             </div>
 
         </div>
 
-        <div class="flecha">
+        <div class="scroll">
 
             ▼
 
         </div>
+
+    </header>
+
+    <section id="contenido" class="contenido">
+        <div class="titulo-seccion">
+
+            <span>CONTENIDO</span>
+
+            <h2>¿Qué aprenderás?</h2>
+
+            <p>
+                Conocerás qué es el diseño web, cuáles son sus objetivos y por qué son tan importantes en la actualidad.
+            </p>
+
+        </div>
+
+        <div class="cards">
+            <article class="card">
+
+                <h3>🌐 Diseño Web</h3>
+
+
+                <p>
+                   Definición, objetivos, Importancia y elementos que
+                   intervienen en la creación de sitios web modernos. 
+                </p>
+
+                <a href="disenoweb.html">Leer más</a>
+
+            </article>
+
+            <article class="card">
+
+                <h3>💻 Editores Web</h3>
+
+                <p>
+                    Conocé qué son los editores visuales y los editores
+                    de código junto con sus características principales.
+                </p>
+
+                <a href="editores.html">Leer más</a>
+
+            </article>
+
+            <article class="card">
+
+                <h3>⚖ Comparación</h3>
+
+                <p>
+                    Analizá las diferencias entre ambos tipos de editores,
+                    ventajas, desventajas y ejemplos.
+                </p>
+
+                <a href="comparacion.html">Leer más</a>
+
+            </article>
+
+            <article class="card">
+
+                <h3>📁 Organización</h3>
+
+                <p>
+                    Aprendé cómo estructurar correctamente un proyecto Web
+                    utilizando carpetas y archivos.
+                </p>
+
+                <a href="organizacion.html">Leer más</a>
+
+            </article>
+        </div>
     </section>
-
-    <section class="contenido">
-
-        <h2>¿Qué aprenderás?</h2>
-
-        <div class="tarjetas">
-
-        <div class="card">
-        
-        <h3>🌐 Diseño Web</h3>
-
-        <p>
-            Conocerás qué es el diseño web, cuáles son sus objetivos y porqué es tan importante.
-        </p>
-
-        <a href="disenoweb.html">
-
-            Ver más
-
-        </a>
-        </div>
-
-        <div class="card">
-
-            <h3>🖥️ Editores Web</h3>
-
-            <p>
-                Aprenderás qué son los editores visuales y los editores de código, además de sus principales características.
-            </p>
-
-            <a href="editores.html">
-                
-                Ver más
-
-            </a>
-            
-        </div>
-
-        <div class="card">
-
-            <h3>⚖️ Comparación</h3>
-
-            <p>
-                Descubrí las direfencias entre los distintos tipos de editores y cuándo conviene utilizar cada uno.
-            </p>
-
-            <a href="comparacion.html">
-
-                Ver más
-
-            </a>
-
-        </div>
-
-        <div class="card">
-
-            <h3>📁 Organización</h3>
-
-            <p>
-                Conocerás cómo organizar correctamente un proyecto web utilizando carpetas y archivos.
-            </p>
-
-            <a href="organizacion.html">
-
-                Ver más
-
-            </a>
-
-        </div>
-
-        </div>
-
-    </section>
-   
-    <footer>
-
-        <p>
-            Trabajo práctico | Diseño Web | 2026
-        </p>
-
-    </footer>
 
 </body>
 

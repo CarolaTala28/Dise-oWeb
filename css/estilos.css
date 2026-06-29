@@ -12,14 +12,14 @@ body{
     font-family:'Montserrat', sans-serif;
     background: #F0E7D5;
     color: #4B3935;
+    overflow-x: hidden;
 }
 
 .hero{
-    width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 
     background: 
-    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.45)),
+    linear-gradient(rgba(30,20,18,.55), rgba(30,20,18,.55)),
     url("../img/Diseno-Web.jpg");
 
     background-size: cover;
@@ -29,21 +29,16 @@ body{
     position: relative;
 }
 
-nav{
-    position: absolute;
-
-    top: 0;
-    left: 0;
-
+.menu{
     width: 100%;
-
-    padding: 30px 60px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    border-bottom: 1px solid rgba(255,255,255,.25);
+    padding: 30px 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 .lego{
@@ -56,128 +51,147 @@ nav{
     font-weight: 600;
 }
 
-nav ul{
+.menu ul{
     list-style: none;
 
     display: flex;
 
-    gap: 45px;
+    gap: 40px;
 }
 
-nav a{
+.menu a{
     color: white;
 
     text-decoration: none;
 
-    font-size: 20px;
+    font-size: 18px;
 
-    transition: 3s;
+    transition: .3s;
+
+    padding-bottom: 8px;
 }
 
-nav a:hoover{
+.menu a:hover{
     color: #F0E7D5;
 }
 
-.hero-contenido{
-    width: 100%;
+.activo{
+    border-bottom: 2px solid #F0E7D5;
+}
 
-    height: 100%;
+.hero-contenido{
+
+    min-height: 100vh;
 
     display: flex;
 
     justify-content: center;
 
     align-items: center;
+
+    padding: 100px;
 }
 
-.hero-caja{
-    width: 70%;
+.hero-box{
+    width: 900%;
 
-    max-width: 1100px;
+    max-width: 90px;
 
-    padding: 70px;
+    padding: 60px;
     
-    background: rgba(75,57,53,.42);
+    background: rgba(75,57,53,.45);
 
-    backdrop-filter: blur(14px);
+    backdrop-filter: blur(12px);
 
-    border: 1px solid rgba(255,255,255,.15);
+    border: 1px solid rgba(255,255,255,.18);
 
-    border-radius: 20px;
+    border-radius: 18px;
 
     text-align: center;
 
-    box-shadow: 0 15px 40px rgba(0,0,0,.35);
+    box-shadow: 0 20px 40px rgba(0,0,0,.30);
 }
 
-.hero-caja h1{
+.hero-box h1{
+
+    margin-top: 20px;
+
     font-family: 'Cormorant Garamond', serif;
 
     color:white;
     
-    font-size: 90px;
+    font-size: 74px;
 
-    font-weight: 600;
-
-    margin-bottom: 30px;
+    line-height: 1.1;
 }
 
 .linea{
-    width: 320px;
+    width: 170px;
 
     height: 2px;
 
     background: #F0E7D5;
 
-    margin: auto;
-
-    margin-bottom: 40px;
+    margin: 35px auto;
 }
 
-.hero-caja p{
+.hero-box p{
     color: white;
-
-    font-size: 30px;
-
-    line-height: 1.8;
-
-    max-width: 900px;
-
-    margin: auto;
-}
-
-.boton{
-    display: inline-block;
-
-    margin-top: 55px;
-
-    padding: 18px 45px;
-    
-    background: #F0E7D5;
-
-    color: #4B3935;
-
-    text-decoration: none;
-
-    border-radius: 10px;
 
     font-size: 22px;
 
-    font-weight: 600;
+    line-height: 1.8;
 
-    transition: .35s;
+    max-width: 700px;
+
+    margin: auto;
 }
 
-.boton:hover{
-    transform: translateY(-5px);
+.hero-botones{
 
+    display: flex;
+
+    margin-top: 50px;
+
+    justify-content: center;
+
+    gap: 20px;
+}
+
+.btn-principal{
+    background: #F0E7D5;
+    color: #4B3935;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-principal:hover{
+    transform: translateY(-4px);
     background: white;
 }
 
-.flecha{
+.btn-secundario{
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+.btn-secundario:hover{
+    background: white;
+    color:#4B3935;
+}
+
+
+.scroll{
     position: absolute;
 
-    bottom: 30px;
+    bottom: 25px;
 
     left: 50%;
 
@@ -185,7 +199,7 @@ nav a:hoover{
 
     color: white;
 
-    font-size: 50px;
+    font-size: 45px;
 
     animation: seta 1.8s infinite;
 }
@@ -206,55 +220,69 @@ nav a:hoover{
 }
 
 .contenido{
-    padding: 9px 10px;
+    padding: 100px 10px;
 }
 
-.contenido h2{
-    font-family: 'Cormorant Garamond', serif;
-
-    font-size: 55px;
+.titulo-seccion{
 
     text-align: center;
-
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
-.tarjeta{
+.titulo-seccion span{
+    color:#8d7068;
+    letter-spacing: 3px;
+}
+
+.titulo-seccion h2{
+    font-size: 52px;
+    margin: 20px 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.titulo-seccion p{
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+}
+
+
+.cards{
     display: grid;
 
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
 
-    gap: 35px;
+    gap: 30px;
 }
 
 .card{
     background: white;
 
-    border-radius: 20px;
+    border-radius: 16px;
 
     padding: 35px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
 
-    transition: .35s;
+    transition: .3s;
 }
 
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 .card h3{
     font-family: 'Cormorant Garamond', serif;
 
-    font-size: 34px;
+    font-size: 30px;
 
-    margin-bottom: 20px;
+    margin-bottom: 18px;
 }
 
 .card p{
-    line-height: 1.9;
+    line-height: 1.8;
 
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .card a{
@@ -266,21 +294,11 @@ nav a:hoover{
 
     background: #4B3935;
 
-    padding: 12px 28px;
+    padding: 12px 24px;
 
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .card a:hover{
-    background: #2f2320;
-}
-
-footer{
-    background: #4B3935;
-
-    color: white;
-
-    text-align: center;
-    
-    padding: 35px;
+    background: #2d201d;
 }
