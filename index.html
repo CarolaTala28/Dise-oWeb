@@ -3,62 +3,113 @@
 
 <head> 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Diseño Web</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://font.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diseño Web</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    
 </head>
 
 <body>
-    <header>
-        <div class="hero-texto">
+    <section class="hero">
+        <nav>
+            <h2 class="logo">Diseño Web</h2>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="disenoweb.html">Diseño Web</a></li>
+                <li><a href="editores.html">Editores</a></li>
+                <li><a href="comparacion.html">Comparación</a></li>
+                <li><a href="organizacion.html">Organización</a></li>
+            </ul>
+        </nav>
 
-        <h1>Introduccion al Diseño Web</h1>
+        <div class="hero-contenido">
+            <div class="hero-caja">
+                <h1>Introducción al Diseño Web</h1>
 
-        <p>Editores web, Entorno de Trabajo y Organización 
-            de Proyectos para el desarrollo de sitios web.
+                <div class="linea"></div>
+
+                <p>
+                    Editores web, entorno de trabajo y organizacion
+                    de proyectos para el desarrollo de sitios web.
+                </p>
+
+                <a href="disenoweb.html" class="boton">
+                    Comenzar recorrido ->
+                </a>
+            </div>
+        </div>
+        <div class="flecha">
+            ▼
+        </div>
+    </section>
+
+    <section class="contenido">
+
+        <h2>¿Qué aprenderás?</h2>
+
+        <div class="tarjetas">
+
+        <div class="card">
+        
+        <h3>🌐 Diseño Web</h3>
+
+        <p>
+            Conocerás qué es el diseño web, cuáles son sus objetivos y porqué es tan importante.
         </p>
 
-        <a href="disenoweb.html" class="btn">Comenzar recorrido</a>
-
+        <a href="disenoweb.html">
+            Ver más
+        </a>
         </div>
-    </header>
 
-    <nav>
-        <a href="index.html">Inicio</a>
-        <a href="editores.html">Editores</a>
-        <a href="comparacion.html">Comparación</a>
-        <a href="organizacion.html">Organización</a>
-    </nav>
+        <div class="card">
 
-    <main class="contenedor">
+            <h3>🖥️ Editores Web</h3>
 
-        <section class="grid">
+            <p>
+                Aprenderás qué son los editores visuales y los editores de código, además de sus principales características.
+            </p>
 
-            <div class="card">
-                <h3>🌐 Diseño Web</h3>
-                <p>Conceptos fundamentales y objetivos.</p>
-            </div>
+            <a href="editores.html">
+                Ver más
+            </a>
+        </div>
 
-            <div class="card">
-                <h3>🖥️ Editores</h3>
-                <p>herramientas utilizadas por desarrolladores.</p>
-            </div>
+        <div class="card">
+            <h3>⚖️ Comparación</h3>
 
-            <div class="card">
-                <h3>⚖️ Comparación</h3>
-                <p>Visuales vs Código.</p>
-            </div>
+            <p>
+                Descubrí las direfencias entre los distintos tipos de editores y cuándo conviene utilizar cada uno.
+            </p>
 
-            <div class="card">
-                <h3>📁 Organización</h3>
-                <p>Estructura profesional de proyectos.</p>
-            </div>
+            <a href="comparacion.html">
+                Ver más
+            </a>
+        </div>
 
-        </section>
-    </main>
+        <div class="card">
+            <h3>📁 Organización</h3>
+
+            <p>
+                Conocerás cómo organizar correctamente un proyecto web utilizando carpetas y archivos.
+            </p>
+
+            <a href="organizacion.html">
+                Ver más
+            </a>
+        </div>
+        </div>
+    </section>
+   
+    <footer>
+        <p>
+            Trabajo práctico | Diseño Web | 2026
+        </p>
+    </footer>
 </body>
 </html>
