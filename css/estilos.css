@@ -15,10 +15,16 @@ h1,h2,h3{
 }
 
 header{
-    background: #4B3935;
+    background: 
+        linear-gradient(rgba(75,57,53,0.75), rgba(75,57,53,0.75)),
+        url("../img/Diseño-Web.jpg");
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 70px 20px;
+    padding: 120px 20px;
 }
 
 header h1{
