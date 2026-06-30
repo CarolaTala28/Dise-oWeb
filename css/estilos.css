@@ -350,3 +350,50 @@ th, td {
 tr:nth-child(even) {
   background: #4B3935;
 }
+
+.comparacion-hero {
+  min-height: 100vh;
+  background: 
+    linear-gradient(rgba(30,20,18,.6), rgba(30,20,18,.6)),
+    url("../img/programacion.jpg") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.comparacion-hero .overlay {
+  background: rgba(75,57,53,.7); /* Mocha Earth translúcido */
+  color: #F0E7D5; /* Vanilla Cream */
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.comparacion-hero h2 {
+  margin-bottom: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 32px;
+}
+
+.comparacion-hero table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  color: #4B3935;
+  font-size: 16px;
+}
+
+.comparacion-hero th, 
+.comparacion-hero td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.comparacion-hero th {
+  background: #4B3935;
+  color: #F0E7D5;
+}
