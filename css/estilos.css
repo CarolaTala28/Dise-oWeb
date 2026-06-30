@@ -223,6 +223,23 @@ body{
     padding: 100px 10px;
 }
 
+.section-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px;
+}
+
+.section-contenido .texto {
+  flex: 1;
+}
+
+.section-contenido .imagen {
+  flex: 1;
+}
+
 .titulo-seccion{
 
     text-align: center;
