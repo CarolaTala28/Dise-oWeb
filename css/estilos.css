@@ -31,13 +31,12 @@ body{
 
 .menu{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 20px;
     padding: 20px;
     position: absolute;
     top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    right: 20px;
     z-index: 100;
 }
 
