@@ -41,7 +41,7 @@ body{
     z-index: 100;
 }
 
-.lego{
+.logo{
     color: white;
 
     font-family: 'Cormorant Garamond', serif;
@@ -97,7 +97,7 @@ body{
 
     max-width: 800px;
 
-    padding: 60px;
+    padding: 40px;
     
     background: rgba(75,57,53,.45);
 
@@ -199,7 +199,7 @@ body{
 
     color: white;
 
-    font-size: 45px;
+    font-size: 30px;
 
     animation: seta 1.8s infinite;
 }
@@ -235,7 +235,7 @@ body{
 }
 
 .titulo-seccion h2{
-    font-size: 52px;
+    font-size: 36px;
     margin: 20px 0;
     font-family: 'Cormorant Garamond', serif;
 }
@@ -281,8 +281,8 @@ body{
 
 .card p{
     line-height: 1.8;
-
     margin-bottom: 25px;
+    font-size: 16px;
 }
 
 .card a{
