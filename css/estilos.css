@@ -30,15 +30,31 @@ body{
 }
 
 .menu{
-    width: 80%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 70px;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 100;
+}
+
+.btn-nav{
+    color: #F0E7D5;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #F0E7D5;
+    border-radius: 6px;
+    background: transparent;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-nav:hover{
+    background: #F0E7D5;
+    color: #4B3935;
 }
 
 .logo{
