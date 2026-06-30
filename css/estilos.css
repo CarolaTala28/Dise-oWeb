@@ -381,3 +381,49 @@ h3 {
   background: rgba(75,57,53,0.8);
   color: #F0E7D5;
 }
+
+.organizacion-hero {
+  min-height: 100vh;
+  background: url("../img/Gestion-de-proyectos.jpg") center/cover no-repeat;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.tarjeta {
+  background: rgba(255,255,255,0.85); /* translúcido */
+  color: #4B3935;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+.tarjeta h2 {
+  font-family: 'Cormorant Garamond', serif;
+  margin-bottom: 15px;
+}
+
+pre {
+  background: rgba(240,231,213,0.9);
+  padding: 15px;
+  border-radius: 8px;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.tarjeta ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tarjeta ul li {
+  margin: 8px 0;
+}
+
+.tarjeta p {
+  font-style: italic;
+  border-left: 4px solid #4B3935;
+  padding-left: 10px;
+}
