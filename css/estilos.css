@@ -43,17 +43,15 @@ body{
 .btn-nav{
     color: #F0E7D5;
     text-decoration: none;
-    padding: 10px 20px;
-    border: 2px solid #F0E7D5;
-    border-radius: 6px;
-    background: transparent;
-    font-weight: 600;
-    transition: 0.3s;
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 6px;
+    transition: .3s;
+    border-bottom: 2px solid transparent;
 }
 
 .btn-nav:hover{
-    background: #F0E7D5;
-    color: #4B3935;
+    border-bottom: 2px solid #F0E7D5;
 }
 
 .logo{
