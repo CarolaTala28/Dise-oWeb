@@ -325,16 +325,17 @@ body{
 
 .editores-hero .overlay {
   background: rgba(30,20,18,0.6);
-  padding: 40px;
+  padding: 50px;
   border-radius: 12px;
   color: #F0E7D5;
-  max-width: 800px;
+  max-width: 900px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.25);
 }
 
 .editores-hero h1 {
   font-family: 'Cormorant Garamond', serif;
-  font-size: 42px;
-  margin-bottom: 20px;
+  font-size: 48px;
+  margin-bottom: 25px;
 }
 
 .editores-hero p {
@@ -344,9 +345,26 @@ body{
 
 .img-seccion {
   display: block;
-  max-width: 200px;
+  max-width: 220px;
   margin: 40px auto;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0,0,0,.25);
+  box-shadow: 0 12px 25px rgba(0,0,0,.3);
+  transition: transform .3s;
+}
+
+.img-seccion:hover{
+    transform: scale(1.05);
+}
+
+.card h2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform .3s, color .3s;
+}
+
+.card:hover h2 {
+  transform: scale(1.08);
+  color: #8d7068;
 }
 
