@@ -315,9 +315,7 @@ body{
 
 .editores-hero {
   min-height: 100vh;
-  background: 
-  linear-gradient(rgba(30,20,18,.55), rgba(30,20,18,.55)),
-  url("../img/codigo-editor.jpg") center/cover no-repeat;
+  background: url("../img/codigo-editor.jpg") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
