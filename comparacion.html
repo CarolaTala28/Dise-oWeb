@@ -4,30 +4,54 @@
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://font.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
         <title>Comparación de Editores</title>
         <link rel="stylesheet" href="css/estilos.css">
     </head>
 
     <body>
-        <header>
-            <h1>Editores Visuales vs Editores de Código</h1>
+        <header class="comparacion-hero">
+
+            <div class="logo">
+                Diseño Web
+            </div>
+
+            <nav class="menu">
+                <a href="index.html" class="btn-nav">Inicio</a>
+                <a href="disenoweb.html" class="btn-nav">Diseño Web</a>
+                <a href="editores.html" class="btn-nav">Editores</a>
+                <a href="comparacion.html" class="btn-nav activo">Comparación</a>
+                <a href="organizacion.html" class="btn-nav">Organización</a>
+            </nav>
+
+            <div class="hero-contenido">
+                <div class="hero-box">
+                    <h1>Editores Visuales vs Editores de Código</h1>
+
+                    <div class="linea"></div>
+
+                    <p>
+                        Conocer las diferencis entre ambos tipos de editores ayuda a elegir la 
+                        herramienta más adecuada según las necesidades del proyecto y la experiencia del usuario.
+                    </p>
+                </div>
+            </div>
         </header>
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="editores.html">Editores</a>
-            <a href="comparacion.html">Comparación</a>
-            <a href="organizacion.html">Organización</a>
-        </nav>
+        <section class="contenido">
 
-        <main class="comparacion-hero">
-            <div class="overlay">
+            <div class="titulo-seccion">
+                <span>COMPARACIÓN</span>
+                <h2>Principales diferencias</h2>
+                <p>
+                    Cada tipo de editor ofrece ventajas diferentess. Mientras los editores visuales facilitan el diseño mediante
+                    interfaces gráficas, los editores de código brindan mayor control y flexibilidad.
+                </p>
 
-                <h2>Editores Visuales vs Editores de Código</h2>
+            </div>
 
-                <table>
+                <table class="titulo-seccion">
                     <tr>
                         <th>Aspecto</th>
                         <th>Editores Visuales.</th>
@@ -54,14 +78,14 @@
 
                     <tr>
                         <td>Popularidad</td>
-                        <td>Usados por principiantes y diseñadores</td>
-                        <td>Preferidos por desarrolladores profesionales</td>
+                        <td>Usados por principiantes y diseñadores.</td>
+                        <td>Preferidos por desarrolladores profesionales.</td>
                     </tr>
                     
                     <tr>
                         <td>Velocidad de desarrollo</td>
-                        <td>Rápida para prototipos</td>
-                        <td>Más lenta pero robusta</td>
+                        <td>Rápida para prototipos.</td>
+                        <td>Más lenta pero robusta.</td>
                     </tr>
 
                     <tr>
@@ -69,11 +93,7 @@
                         <td>Wix, Dreamweaver.</td>
                         <td>VS code, Sublime Text.</td>
                     </tr>
-
-                    
-
                 </table>
-            </div>
-        </main>
+        </section>
     </body>
 </html>

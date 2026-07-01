@@ -4,63 +4,96 @@
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://font.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/estilos.css">
         <title>Organización de Proyectos</title>
         <link rel="stylesheet" href="css/estilos.css">
     </head>
     
     <body>
-        <header>
-            <h1>Organización de proyectos Web</h1>
+        <header class="organizacion-hero">
+            <div class="logo">
+                Diseño Web
+            </div>
+
+            <nav class="menu>
+                <a href="index.html">Inicio</a>
+                <a href="editores.html">Editores</a>
+                <a href="comparacion.html">Comparación</a>
+                <a href="organizacion.html">Organización</a>
+            </nav>
+
+            <div class="hero-contenido">
+                <div class="hero-box">
+
+                    <h1>Organización de proyectos Web</h1>
+
+                    <div class="linea"></div>
+
+                    <p>
+                        Mantener una estructura organizada facilita el desarrollo,
+                        el mantenimiento y el trabajo en equipo.
+                    </p>
+                </div>
+            </div>
         </header>
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="editores.html">Editores</a>
-            <a href="comparacion.html">Comparación</a>
-            <a href="organizacion.html">Organización</a>
-        </nav>
+        <section class="contenido">
+            <div class="titulo-seccion">
 
-        <main class="organizacion-hero">
-            <div class="tarjeta">
+                <span>ORGANIZACIÓN</span>
+
                 <h2>Estructura recomendada</h2>
-                <pre>
-                📁 Proyecto Web
-                │
-                ├── 📄 index.html    
-                ├── 📄 editores.html
-                ├── 📄 comparacion.html
-                ├── 📄 organizacion.html
-                │
-                ├── 📁 css
-                │   └── 📄 estilos.css
-                │
-                ├── 📁 img
-                │    └── 🖼 imágenes
-                │
-                └── 📁 media
-                    └── 🎥 videos
-                </pre>
-            </div>
 
-            <div class="tarjeta">
-                <h2>Funciones de cada carpeta</h2>
-                <ul>
-                    <li><strong>HTML:</strong> estructura del sitio.</li>
-                    <li><strong>CSS:</strong> diseño visual.</li>
-                    <li><strong>IMG:</strong> imágenes y gráficos.</li>
-                    <li><strong>MEDIA:</strong> videos y audios.</li>
-                </ul>
-            </div>
-
-            <div class="tarjeta">
-                <h2>Conclusión</h2>
                 <p>
-                    Una buena organización facilita el mantenimiento,
-                    la ampliación y el trabajo en equipo dentro de un proyecto web.
+                    Un proyecto web bien organizado permite encontrar rápidamente los archivos y mantener el código ordenado.
                 </p>
+
             </div>
-        </main>
+
+            <div class="cards">
+                <div class="card">
+                    <h2>📁 Estructura</h2>
+                    <pre>
+                    Proyecto Wen
+                    │
+                    ├── index.html
+                    ├── disenoweb.html
+                    ├── editores.html
+                    ├── comparacion.html
+                    ├── organizacion.html
+                    │
+                    ├── css
+                    │   └── estilos.css
+                    │
+                    ├── img
+                    │   └── imágenes
+                    │
+                    └── media
+                        └── videos
+                    </pre>
+                </div>
+
+                <div class="card">
+                    <h2>📂 Función de las carpetas</h2>
+
+                    <ul>
+                        <li><strong>HTML:</strong> estructura del sitio.</li>
+                        <li><strong>CSS:</strong> diseño visual.</li>
+                        <li><strong>IMG:</strong> imágenes y gráficos.</li>
+                        <li><strong>MEDIA:</strong> videos y audios.</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>💡 Conclusión</h2>
+
+                    <p>
+                        Organizar correctamente los archivos hace que el proyecto sea 
+                        más fácil de mantener, mejorar y compartir con otros desarrolladores.
+                    </p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>

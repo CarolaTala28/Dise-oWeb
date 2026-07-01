@@ -2,53 +2,78 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://font.gstatic.com" crossorigin>
 
-        <link href="https://font.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <title>Diseño Web</title>
 
         <link rel="stylesheet" href="css/estilos.css">
 
-        <title>Diseño Web</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     </head>
 
     <body>
-        <header>
-            <h1>¿Qué es el Diseño Web?</h1>
+        <header class="diseno-hero">
+            <div class="logo">
+                Diseño Web
+            </div>
+
+            <nav class="menu">
+                <a href="index.html" class="btn-nav">Inicio</a>
+                <a href="disenoweb.html" class="btn-nav activo">Diseño Web</a>
+                <a href="editores.html" class="btn-nav">Editores</a>
+                <a href="comparacion.html" class="btn-nav">Comparación</a>
+                <a href="organizacion.html" class="btn-nav">Organización</a>
+            </nav>
+
+            <div class="hero-contenido">
+                <div class="hero-box">
+
+                    <h1>¿Qué es el Diseño Web?</h1>
+
+                    <div class="linea"></div>
+
+                    <p>
+                        El diseño web combina creatividad, tecnología y organización
+                        para crear sitios atractivos, funcionales y fáciles de utilizar.
+                    </p>
+
+                </div>
+            </div>
+
         </header>
 
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="disenoweb.html">Diseño Web</a>
-            <a href="editores.html">Editores</a>
-            <a href="comparacion.html">Comparación</a>
-            <a href="organizacion.html">Organización</a>
-        </nav>
+        <section class="contenido">
+            <div class="cards">
 
-        <main class="contenedor">
-            <img class="img-seccion" src="img/Diseno-Web.jpg" alt="Diseño Web">
-            
-            <div class="tarjeta">
-                <h2>Definición</h2>
+                <div class="card">
 
-                <p>
-                    El diseño web es la disciplina encargada de planificar,
-                    crear y organizar sitios web. Combina aspectos visuales,
-                    funcionales y de experiencia de usuario para lograr páginas
-                    atractivas, accesibles y fáciles de utilizar.
-                </p>
+                    <h2>📖 Definición</h2>
+
+                    <p>
+                     El diseño web es la disciplina encargada de planificar,
+                     crear y organizar sitios web. Combina aspectos visuales,
+                     funcionales y de experiencia de usuario para lograr páginas
+                     atractivas, accesibles y fáciles de utilizar.
+                    </p>
+
+                    
+                </div>
+
+                <div class="card">
+                    <h2>⭐ Importancia</h2>
+
+                    <p>
+                     Actualmente la presencia digital es fundamental para empresas,
+                     instituciones y profesionales. Un buen diseño web permite
+                     comunicar información de forma clara y mejorar la interacción 
+                     con los usuarios. 
+                    </p>
+
+                </div>
             </div>
-
-            <div class="tarjeta">
-                <h2>Importancia</h2>
-
-                <p>
-                    Actualmente la presencia digital es fundamental para empresas,
-                    instituciones y profesionales. Un buen diseño web permite
-                    comunicar información de forma clara y mejorar la interacción 
-                    con los usuarios. 
-                </p>
-            </div>
-        </main>
+        </section>
     </body>
 </html>
