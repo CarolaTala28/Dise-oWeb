@@ -401,70 +401,86 @@ pre{
 }
 
 .descargas{
-    width: 90%;
-    max-width: 1100px;
-    padding: 50px;
-    background: white;
-    border-radius: 20px;
-    text-align: center;
-    margin: 70px auto;
-    box-shadow: 0 15px 35px rgba(0,0,0,.12);
+    width:90%;
+    max-width:1200px;
+    margin:90px auto;
+    text-align:center;
 }
 
 .descargas h2{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 38px;
-    color: #4B3935;
-    margin-bottom: 15px;
+    font-family:'Cormorant Garamond', serif;
+    font-size:42px;
+    color:#4B3935;
+    margin-bottom:15px;
 }
 
 .descargas p{
-    color: #6b5852;
-    font-size: 17px;
-    margin-bottom: 40px;
+    font-size:18px;
+    color:#6b5852;
+    margin-bottom:45px;
 }
 
-.botones-descarga{
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    flex-wrap: wrap;
+.cards-descarga{
+    display:flex;
+    justify-content:center;
+    gap:35px;
+    flex-wrap:wrap;
 }
 
-.btn-descarga{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    width: 290px;
-    padding: 18px 28px;
-    text-decoration: none;
-    background: #4B3935;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 15px;
-    transition: .35s;
-    box-shadow: 0 10px 25px rgba(0,0,0,.18);
+.card-descarga{
+    width:500px;
+    background:linear-gradient(135deg,#4B3935,#7A5F57);
+    border-radius:22px;
+    padding:30px;
+    display:flex;
+    align-items:center;
+    gap:25px;
+    box-shadow:0 20px 35px rgba(0,0,0,.20);
+    transition:.35s;
 }
 
-.btn-descarga:hover{
-    transform: translateY(-7px) scale(1.05);
-    box-shadow: 0 18px 35px rgba(0,0,0,.30);
+.card-descarga:hover{
+    transform:translateY(-10px);
+    box-shadow:0 25px 45px rgba(0,0,0,.30);
 }
 
-.vscode{
-    background: #4B3935;
+.card-descarga img{
+    width:90px;
+    height:90px;
+    background:white;
+    padding:15px;
+    border-radius:18px;
 }
 
-.vscode:hover{
-    background: #35626F;
+.info-descarga{
+    text-align:left;
+    color:white;
 }
 
-.wix{
-    background: #6B554F;
+.info-descarga h3{
+    font-family:'Cormorant Garamond', serif;
+    font-size:34px;
+    margin-bottom:10px;
 }
 
-.wix:hover{
-    background: #8d7068;
+.info-descarga p{
+    color:#F0E7D5;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.info-descarga a{
+    display:inline-block;
+    padding:14px 28px;
+    background:#F0E7D5;
+    color:#4B3935;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.info-descarga a:hover{
+    background:white;
+    transform:scale(1.05);
 }
