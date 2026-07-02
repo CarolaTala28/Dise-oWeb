@@ -359,42 +359,31 @@ pre{
 
 .tabla-comparacion{
 
-    width:100%;
-
+    width:90%;
     max-width:1100px;
-
-    margin:50px auto;
-
+    margin:60px auto;
     border-collapse:collapse;
-
     background:white;
-
-    border-radius:15px;
-
+    border-radius:18px;
     overflow:hidden;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.12);
+    box-shadow:0 15px 35px rgba(0,0,0,.15);
 
 }
 
 .tabla-comparacion th{
 
     background:#4B3935;
-
     color:#F0E7D5;
-
     padding:18px;
-
     font-size:18px;
+    font-weight: 600;
 
 }
 
 .tabla-comparacion td{
 
-    padding:16px;
-
+    padding:18px;
     border-bottom:1px solid #ddd;
-
     text-align:center;
 
 }
@@ -402,5 +391,11 @@ pre{
 .tabla-comparacion tr:hover{
 
     background:#F8F3EB;
+    transition: .3s;
 
+}
+
+.tabla-comparacion th:first-child,
+.tabla-comparacion td:first-child{
+    font-weight: 600;
 }
