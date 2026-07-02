@@ -399,3 +399,44 @@ pre{
 .tabla-comparacion td:first-child{
     font-weight: 600;
 }
+
+.descargas{
+    text-align: center;
+    margin: 80px auto;
+}
+
+.descargas h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.descargas p{
+    max-width: 700px;
+    margin: 0 auto 40px;
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+.botones-descarga{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.btn-secundario-descarga{
+    background: transparent;
+    color: #4B3935;
+    border: 2px solid #4B3935;
+    text-decoration: none;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.btn-secundario-descarga:hover{
+    background: #4B3935;
+    color: #F0E7D5;
+}
