@@ -445,11 +445,12 @@ pre{
 }
 
 .card-descarga img{
-    width:90px;
-    height:90px;
+    width:80px;
+    height:80px;
     background:white;
     padding:15px;
     border-radius:18px;
+    object-fit: contain;
 }
 
 .info-descarga{
